@@ -1,0 +1,10 @@
+name: 'Bootiq product blocks'
+type: module
+description: 'Provides reusable product grid blocks for Layout Builder.'
+package: Bootiq
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:block
+  - drupal:layout_builder
+  - drupal:file
+  - commerce:commerce_product

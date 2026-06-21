@@ -1,0 +1,39 @@
+.bootiq-product-grid-block {
+  margin: 0;
+}
+
+.bootiq-product-grid-block__title {
+  margin: 0 0 clamp(1.2rem, 2vw, 1.8rem);
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.bootiq-product-grid-block__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(1rem, 1.8vw, 1.55rem);
+}
+
+.bootiq-product-grid-block__item > * {
+  height: 100%;
+}
+
+.bootiq-product-grid-block__empty {
+  margin: 0;
+  color: currentColor;
+  opacity: .72;
+}
+
+@media (max-width: 991px) {
+  .bootiq-product-grid-block__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .bootiq-product-grid-block__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .9rem;
+  }
+}

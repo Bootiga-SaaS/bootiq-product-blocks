@@ -1,0 +1,13 @@
+{
+  "name": "bootiga/bootiq-product-blocks",
+  "description": "Reusable product grid blocks for the Bootiq storefront.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10 || ^11",
+    "drupal/commerce": "^2 || ^3"
+  },
+  "extra": {
+    "installer-name": "bootiq_product_blocks"
+  }
+}

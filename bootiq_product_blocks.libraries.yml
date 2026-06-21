@@ -1,0 +1,4 @@
+product_grid:
+  css:
+    theme:
+      css/product-grid.css: {}
