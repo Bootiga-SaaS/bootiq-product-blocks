@@ -1,5 +1,7 @@
 # Bootiq Product Blocks
 
+**Current stable release:** [1.0.1](https://github.com/Bootiga-SaaS/bootiq-product-blocks/releases/tag/1.0.1)
+
 Bootiq Product Blocks provides reusable Drupal Layout Builder blocks for the [Bootiq storefront package](https://github.com/Bootiga-SaaS/bootiq).
 
 The module contains configurable storefront sections such as editable product grids and related-product displays. It does not create products or demo content.
